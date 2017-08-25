@@ -2,10 +2,10 @@
 
 "use strict";
 
-const readable = require("fs");
+const { readFileSync } = require("fs");
 
 try {
-  var data = readable.readFileSync("input-file.txt", "utf8");
+  var data = readFileSync("input-file.txt", "utf8");
   console.log(data);
 } catch (err) {
   console.log("err", e.stack);
