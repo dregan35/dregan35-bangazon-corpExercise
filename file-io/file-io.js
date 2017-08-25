@@ -4,7 +4,10 @@
 
 const readable = require("fs");
 
-readable.readFile("input-file.txt", "utf8", function(err, data) {
-  if (err) throw err;
+try {
+  var data = readable.readFileSync("input-file.txt", "utf8");
   console.log(data);
-});
+} catch (err) {
+  console.log("err", e.stack);
+}
+
