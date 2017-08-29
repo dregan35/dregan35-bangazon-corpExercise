@@ -1,5 +1,3 @@
-// select s.title, a.artistname from song s, artist a where a.artistName = 'Jay Z' and s.artistid = a.artistid
-
 1. SELECT * FROM genre
 
 2. insert into artist
