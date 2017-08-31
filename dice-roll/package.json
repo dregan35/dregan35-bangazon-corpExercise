@@ -1,0 +1,22 @@
+{
+  "name": "dice-roll",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "diceroll": "./bin/diceroll"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "hmac-rng": "^1.1.0",
+    "parse": "^1.10.0"
+  }
+}
