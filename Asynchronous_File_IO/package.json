@@ -1,0 +1,12 @@
+{
+  "name": "Asynchronous_File_IO",
+  "version": "1.0.0",
+  "description": "",
+  "main": "asynch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
